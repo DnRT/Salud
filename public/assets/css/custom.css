@@ -1,0 +1,55 @@
+
+#body{
+    background: #a3a3a3;
+}
+#header-navbar{
+    background: #1f4e78;
+    /*padding:20px 0px 0px 0px;*/
+}
+
+#header-title{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+
+#header-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.page-centered{
+    margin-top: 2%;
+}
+
+
+.footer-dai{
+    background: #1f4e78;
+    margin-top: 120px;
+    position: relative;
+}
+
+#footer {
+    font-size: 78%;
+    background-color: #151617e0;
+    bottom: 0;
+    left: 0;
+    position: relative;
+}
+
+#footerxs {
+    font-size: 78%;
+    background-color: #151617e0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.fuente {
+    color: #fafafa;
+}
+
+.boxFooter {
+    margin: 4px 0 3px 0;
+}

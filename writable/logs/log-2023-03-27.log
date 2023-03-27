@@ -1,0 +1,778 @@
+CRITICAL - 2023-03-27 00:16:13 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-03-27 00:16:17 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-03-27 01:32:56 --> Cannot call constructor
+in APPPATH\Controllers\Encuesta.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 01:33:08 --> Cannot call constructor
+in APPPATH\Controllers\Encuesta.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 01:33:59 --> Class "CI_Model" not found
+in APPPATH\Models\Tokens_1219.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CFI4\\app\\Models\\tokens_1219.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\tokens_1219')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\tokens_1219')
+ 5 SYSTEMPATH\Config\Factories.php(155): class_exists('App\\Models\\tokens_1219')
+ 6 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'tokens_1219')
+ 7 SYSTEMPATH\Config\Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 8 SYSTEMPATH\Common.php(829): CodeIgniter\Config\Factories::models('tokens_1219', [...], null)
+ 9 APPPATH\Controllers\Encuesta.php(12): model('tokens_1219')
+10 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+11 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 01:34:30 --> Class "CI_Model" not found
+in APPPATH\Models\Tokens_1219.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CFI4\\app\\Models\\tokens_1219.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\tokens_1219')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\tokens_1219')
+ 5 SYSTEMPATH\Config\Factories.php(155): class_exists('App\\Models\\tokens_1219')
+ 6 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'tokens_1219')
+ 7 SYSTEMPATH\Config\Factories.php(86): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 8 SYSTEMPATH\Common.php(829): CodeIgniter\Config\Factories::models('tokens_1219', [...], null)
+ 9 APPPATH\Controllers\Encuesta.php(13): model('tokens_1219')
+10 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+11 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:00:44 --> Undefined variable $t1219
+in APPPATH\Controllers\Encuesta.php on line 23.
+ 1 APPPATH\Controllers\Encuesta.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $t1219', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:01:03 --> Undefined variable $t1219
+in APPPATH\Controllers\Encuesta.php on line 23.
+ 1 APPPATH\Controllers\Encuesta.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $t1219', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:15:22 --> Undefined variable $t1219
+in APPPATH\Controllers\Encuesta.php on line 23.
+ 1 APPPATH\Controllers\Encuesta.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $t1219', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:15:24 --> Undefined variable $t1219
+in APPPATH\Controllers\Encuesta.php on line 23.
+ 1 APPPATH\Controllers\Encuesta.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $t1219', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:25:37 --> Undefined property: App\Controllers\Encuesta::$input
+in APPPATH\Controllers\Encuesta.php on line 22.
+ 1 APPPATH\Controllers\Encuesta.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Encuesta::$input', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:28:32 --> Undefined property: App\Controllers\Encuesta::$input
+in APPPATH\Controllers\Encuesta.php on line 22.
+ 1 APPPATH\Controllers\Encuesta.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Encuesta::$input', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:30:36 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Encuesta.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Encuesta')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Encuesta')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Encuesta', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:30:55 --> Class "App\Controllers\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:31:02 --> Class "App\Controllers\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:31:54 --> Class "App\Controllers\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:34:03 --> Class "App\Controllers\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:35:26 --> Class "App\Controllers\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:39:20 --> Class "App\Controllers\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:39:33 --> Class "App\Controllers\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:39:53 --> Class "App\Controllers\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:47:04 --> Undefined variable $tokensModel
+in APPPATH\Controllers\Encuesta.php on line 23.
+ 1 APPPATH\Controllers\Encuesta.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tokensModel', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:50:18 --> Undefined variable $tokensModel
+in APPPATH\Controllers\Encuesta.php on line 23.
+ 1 APPPATH\Controllers\Encuesta.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tokensModel', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:50:58 --> Undefined variable $tokensModel
+in APPPATH\Controllers\Encuesta.php on line 23.
+ 1 APPPATH\Controllers\Encuesta.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tokensModel', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:51:32 --> Undefined variable $tokensModel
+in APPPATH\Controllers\Encuesta.php on line 23.
+ 1 APPPATH\Controllers\Encuesta.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tokensModel', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:52:44 --> Class "App\Controllers\App\Models\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:53:30 --> Class "App\Controllers\App\Models\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:53:47 --> Class "App\Controllers\App\Models\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:55:15 --> Class "App\Controllers\App\Models\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 02:56:26 --> Class "App\Controllers\App\Models\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:05:26 --> Class "App\Controllers\App\Models\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:05:44 --> Class "App\Controllers\App\Models\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:05:57 --> Class "App\Controllers\App\Models\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:13:30 --> Class "App\Controllers\App\Models\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:16:45 --> Class "App\Controllers\App\Models\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:17:45 --> Class "App\Controllers\App\Models\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:18:07 --> Class "App\Controllers\App\Models\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:19:18 --> Undefined variable $tokensModel
+in APPPATH\Controllers\Encuesta.php on line 23.
+ 1 APPPATH\Controllers\Encuesta.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tokensModel', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:20:53 --> Undefined variable $tokensModel
+in APPPATH\Controllers\Encuesta.php on line 23.
+ 1 APPPATH\Controllers\Encuesta.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tokensModel', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:23:53 --> Undefined variable $tokensModel
+in APPPATH\Controllers\Encuesta.php on line 23.
+ 1 APPPATH\Controllers\Encuesta.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tokensModel', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:30:38 --> Undefined variable $tokensModel
+in APPPATH\Controllers\Encuesta.php on line 23.
+ 1 APPPATH\Controllers\Encuesta.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tokensModel', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:31:31 --> Undefined variable $tokensModel
+in APPPATH\Controllers\Encuesta.php on line 23.
+ 1 APPPATH\Controllers\Encuesta.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tokensModel', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:31:58 --> Undefined variable $tokensModel
+in APPPATH\Controllers\Encuesta.php on line 23.
+ 1 APPPATH\Controllers\Encuesta.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tokensModel', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:32:08 --> Undefined variable $tokensModel
+in APPPATH\Controllers\Encuesta.php on line 23.
+ 1 APPPATH\Controllers\Encuesta.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tokensModel', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:37:24 --> Undefined variable $db
+in APPPATH\Models\Tokens_1219.php on line 15.
+ 1 APPPATH\Models\Tokens_1219.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\CFI4\\app\\Models\\Tokens_1219.php', 15)
+ 2 APPPATH\Controllers\Encuesta.php(13): App\Models\Tokens_1219->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:37:42 --> Undefined variable $db
+in APPPATH\Models\Tokens_1219.php on line 15.
+ 1 APPPATH\Models\Tokens_1219.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\CFI4\\app\\Models\\Tokens_1219.php', 15)
+ 2 APPPATH\Controllers\Encuesta.php(13): App\Models\Tokens_1219->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:38:08 --> Undefined variable $db
+in APPPATH\Models\Tokens_1219.php on line 15.
+ 1 APPPATH\Models\Tokens_1219.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\CFI4\\app\\Models\\Tokens_1219.php', 15)
+ 2 APPPATH\Controllers\Encuesta.php(13): App\Models\Tokens_1219->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:39:54 --> Class "App\Controllers\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:40:16 --> Class "Models\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:40:41 --> Class "App\Controllers\Models\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:41:01 --> Class "App\Controllers\App\Models\Tokens_1219" not found
+in APPPATH\Controllers\Encuesta.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Encuesta->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:41:58 --> Undefined variable $db
+in APPPATH\Models\Tokens_1219.php on line 15.
+ 1 APPPATH\Models\Tokens_1219.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\CFI4\\app\\Models\\Tokens_1219.php', 15)
+ 2 APPPATH\Controllers\Encuesta.php(24): App\Models\Tokens_1219->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:44:13 --> Undefined variable $db
+in APPPATH\Models\Tokens_1219.php on line 15.
+ 1 APPPATH\Models\Tokens_1219.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\CFI4\\app\\Models\\Tokens_1219.php', 15)
+ 2 APPPATH\Controllers\Encuesta.php(23): App\Models\Tokens_1219->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+ERROR - 2023-03-27 03:44:57 --> mysqli_sql_exception: Table 'encuestadocpostgrado_joomla3.encuesta' doesn't exist in C:\xampp\htdocs\CFI4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CFI4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\CFI4\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CFI4\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CFI4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CFI4\app\Models\Tokens_1219.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CFI4\app\Controllers\Encuesta.php(23): App\Models\Tokens_1219->getAll()
+#6 C:\xampp\htdocs\CFI4\system\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+#7 C:\xampp\htdocs\CFI4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+#8 C:\xampp\htdocs\CFI4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CFI4\public\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CFI4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-27 03:44:57 --> Table 'encuestadocpostgrado_joomla3.encuesta' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `encuesta` `actual`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `encuesta` `actual`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `encuesta` `actual`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `encuesta` `actual`', [], false)
+ 5 APPPATH\Models\Tokens_1219.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Encuesta.php(23): App\Models\Tokens_1219->getAll()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+ERROR - 2023-03-27 03:45:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"encuesta `actual"`' at line 2 in C:\xampp\htdocs\CFI4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\CFI4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM "...', 0)
+#1 C:\xampp\htdocs\CFI4\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM "...')
+#2 C:\xampp\htdocs\CFI4\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#3 C:\xampp\htdocs\CFI4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#4 C:\xampp\htdocs\CFI4\app\Models\Tokens_1219.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CFI4\app\Controllers\Encuesta.php(23): App\Models\Tokens_1219->getAll()
+#6 C:\xampp\htdocs\CFI4\system\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+#7 C:\xampp\htdocs\CFI4\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+#8 C:\xampp\htdocs\CFI4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CFI4\public\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CFI4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-27 03:45:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"encuesta `actual"`' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM "encuesta `actual"`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM "encuesta `actual"`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "encuesta `actual"`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "encuesta `actual"`', [], false)
+ 5 APPPATH\Models\Tokens_1219.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Encuesta.php(23): App\Models\Tokens_1219->getAll()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:57:16 --> Invalid file: "test.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('test.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('test.php', [], true)
+ 3 APPPATH\Controllers\Encuesta.php(23): view('test.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 03:58:02 --> Undefined variable $users
+in APPPATH\Views\tests.php on line 6.
+ 1 APPPATH\Views\tests.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\CFI4\\app\\Views\\tests.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\CFI4\\app\\Views\\tests.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tests.php', [], true)
+ 5 APPPATH\Controllers\Encuesta.php(23): view('tests.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:00:09 --> Undefined variable $users
+in APPPATH\Controllers\Encuesta.php on line 23.
+ 1 APPPATH\Controllers\Encuesta.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:00:40 --> Array to string conversion
+in APPPATH\Views\tests.php on line 6.
+ 1 APPPATH\Views\tests.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\CFI4\\app\\Views\\tests.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\CFI4\\app\\Views\\tests.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tests.php', [], true)
+ 5 APPPATH\Controllers\Encuesta.php(23): view('tests.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:02:04 --> Call to undefined function App\Controllers\getAll()
+in APPPATH\Controllers\Encuesta.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:02:36 --> Call to undefined function App\Controllers\getAll()
+in APPPATH\Controllers\Encuesta.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:03:22 --> Undefined variable $data
+in APPPATH\Views\tests.php on line 6.
+ 1 APPPATH\Views\tests.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\CFI4\\app\\Views\\tests.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\CFI4\\app\\Views\\tests.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tests.php', [], true)
+ 5 APPPATH\Controllers\Encuesta.php(25): view('tests.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:04:31 --> Array to string conversion
+in APPPATH\Views\tests.php on line 6.
+ 1 APPPATH\Views\tests.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\CFI4\\app\\Views\\tests.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\CFI4\\app\\Views\\tests.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tests.php', [], true)
+ 5 APPPATH\Controllers\Encuesta.php(25): view('tests.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:05:47 --> Array to string conversion
+in APPPATH\Views\tests.php on line 7.
+ 1 APPPATH\Views\tests.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\CFI4\\app\\Views\\tests.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\CFI4\\app\\Views\\tests.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tests.php', [], true)
+ 5 APPPATH\Controllers\Encuesta.php(25): view('tests.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:13:15 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Encuesta.php(24): CodeIgniter\Model->__call('getAsigUsr', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:13:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Encuesta.php(24): CodeIgniter\Model->__call('getAsigUsr', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:17:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Encuesta.php(24): CodeIgniter\Model->__call('getAsigUsr', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:20:27 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Encuesta.php(24): CodeIgniter\Model->__call('getAsigUsr', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:21:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Encuesta.php(24): CodeIgniter\Model->__call('getAsigUsr', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:27:38 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Encuesta.php(24): CodeIgniter\Model->__call('getAsigUsr', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:30:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Encuesta.php(24): CodeIgniter\Model->__call('getAsigUsr', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:31:01 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(832): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Encuesta.php(24): CodeIgniter\Model->__call('getAsigUsr', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:31:45 --> Call to a member function num_rows() on array
+in APPPATH\Models\Tokens_1219.php on line 20.
+ 1 APPPATH\Controllers\Encuesta.php(24): App\Models\Tokens_1219->getAsigUser('17752896')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:33:55 --> array_count_values(): Can only count string and integer values, entry skipped
+in APPPATH\Models\Tokens_1219.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_count_values(): Can only count string and integer values, entry skipped', 'C:\\xampp\\htdocs\\CFI4\\app\\Models\\Tokens_1219.php', 20)
+ 2 APPPATH\Models\Tokens_1219.php(20): array_count_values([...])
+ 3 APPPATH\Controllers\Encuesta.php(24): App\Models\Tokens_1219->getAsigUser('17752896')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:34:44 --> Array to string conversion
+in APPPATH\Views\tests.php on line 8.
+ 1 APPPATH\Views\tests.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\CFI4\\app\\Views\\tests.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\CFI4\\app\\Views\\tests.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tests.php', [], true)
+ 5 APPPATH\Controllers\Encuesta.php(26): view('tests.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:37:10 --> Undefined array key "rut"
+in APPPATH\Controllers\Encuesta.php on line 26.
+ 1 APPPATH\Controllers\Encuesta.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rut"', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:37:25 --> Undefined array key "rut"
+in APPPATH\Controllers\Encuesta.php on line 26.
+ 1 APPPATH\Controllers\Encuesta.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rut"', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:38:43 --> Array to string conversion
+in APPPATH\Controllers\Encuesta.php on line 25.
+ 1 APPPATH\Controllers\Encuesta.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:39:07 --> Attempt to read property "rut" on array
+in APPPATH\Controllers\Encuesta.php on line 25.
+ 1 APPPATH\Controllers\Encuesta.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "rut" on array', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:39:51 --> Undefined variable $usuario
+in APPPATH\Views\tests.php on line 7.
+ 1 APPPATH\Views\tests.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'C:\\xampp\\htdocs\\CFI4\\app\\Views\\tests.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\CFI4\\app\\Views\\tests.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tests.php', [], true)
+ 5 APPPATH\Controllers\Encuesta.php(30): view('tests.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:44:21 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Encuesta.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:44:56 --> Attempt to read property "rut" on array
+in APPPATH\Controllers\Encuesta.php on line 25.
+ 1 APPPATH\Controllers\Encuesta.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "rut" on array', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:53:30 --> Array to string conversion
+in APPPATH\Views\lista_asignaturas.php on line 49.
+ 1 APPPATH\Views\lista_asignaturas.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\CFI4\\app\\Views\\lista_asignaturas.php', 49)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\CFI4\\app\\Views\\lista_asignaturas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lista_asignaturas.php', [], true)
+ 5 APPPATH\Controllers\Encuesta.php(35): view('lista_asignaturas.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:54:33 --> Undefined variable $mis_asignaruas
+in APPPATH\Views\lista_asignaturas.php on line 50.
+ 1 APPPATH\Views\lista_asignaturas.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mis_asignaruas', 'C:\\xampp\\htdocs\\CFI4\\app\\Views\\lista_asignaturas.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\CFI4\\app\\Views\\lista_asignaturas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('lista_asignaturas.php', [], true)
+ 5 APPPATH\Controllers\Encuesta.php(35): view('lista_asignaturas.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 04:59:40 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Controllers\Encuesta.php on line 26.
+ 1 APPPATH\Controllers\Encuesta.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'C:\\xampp\\htdocs\\CFI4\\app\\Controllers\\Encuesta.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 05:00:47 --> count(): Argument #1 ($value) must be of type Countable|array, bool given
+in APPPATH\Controllers\Encuesta.php on line 24.
+ 1 APPPATH\Controllers\Encuesta.php(24): count(false)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
