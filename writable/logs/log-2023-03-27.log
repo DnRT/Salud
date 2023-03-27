@@ -776,3 +776,59 @@ in APPPATH\Controllers\Encuesta.php on line 24.
  4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
  6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\CFI4\\public\\index.php')
+CRITICAL - 2023-03-27 17:30:35 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2023-03-27 15:39:52 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in D:\Salud\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\Salud\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'encudocpostgrad...', Object(SensitiveParameterValue), 'encuestadocpost...', 3306, '', 0)
+#1 D:\Salud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Salud\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Salud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Salud\app\Models\Tokens_1219.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Salud\app\Controllers\Encuesta.php(24): App\Models\Tokens_1219->getAsigUser('17752896')
+#6 D:\Salud\system\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+#7 D:\Salud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+#8 D:\Salud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Salud\public\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 D:\Salud\system\Commands\Server\rewrite.php(47): require_once('D:\\Salud\\public...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in D:\Salud\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Salud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Salud\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Salud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Salud\app\Models\Tokens_1219.php(19): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Salud\app\Controllers\Encuesta.php(24): App\Models\Tokens_1219->getAsigUser('17752896')
+#5 D:\Salud\system\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+#6 D:\Salud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+#7 D:\Salud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Salud\public\index.php(68): CodeIgniter\CodeIgniter->run()
+#9 D:\Salud\system\Commands\Server\rewrite.php(47): require_once('D:\\Salud\\public...')
+#10 {main}
+CRITICAL - 2023-03-27 15:39:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `encuesta_actual`
+WHERE `rut` = :rut:', [...], false)
+ 3 APPPATH\Models\Tokens_1219.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Encuesta.php(24): App\Models\Tokens_1219->getAsigUser('17752896')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Salud\\public\\index.php')
+CRITICAL - 2023-03-27 18:39:22 --> foreach() argument must be of type array|object, string given
+in APPPATH\Libraries\Tabla_asignaturas.php on line 50.
+ 1 APPPATH\Libraries\Tabla_asignaturas.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'D:\\Salud\\app\\Libraries\\Tabla_asignaturas.php', 50)
+ 2 APPPATH\Controllers\Encuesta.php(27): App\Libraries\Tabla_asignaturas->verificador('17752896')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Salud\\public\\index.php')

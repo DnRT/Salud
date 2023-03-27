@@ -43,6 +43,21 @@
 
 			return $return_tabla_asignatura;
 		}
+		public function verificador($rut){
+			$contador = 0;
+			$aux = 2;
+			for($x = strlen($rut)-1; $x >= 0; $x--){
+				$contador += intval($rut[$x]) * $aux;
+				if($aux < 7) $aux++;
+				else $aux = 2;
+			}
+			$verificador = intval($contador / 11);
+			$verificador = $contador - ($verificador * 11);
+			$verificador = 11 - $verificador;
+			if($verificador === 10) $verificador='K';
+			else if($verificador === 11) $verificador=0;
+			return $verificador;
+		}
 	}
 
 ?>

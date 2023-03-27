@@ -24,9 +24,10 @@
 			$crudo = $tokensModel->getAsigUser($rut);
 			$lib = new Tabla_asignaturas($crudo);
 			if($crudo!=false){
+				$verificador = $lib->verificador($crudo[0]['rut']);
 				$asig = $lib->construirTablaAsignaturas();
 				$data = [
-					'rut' => $crudo[0]['rut'],
+					'rut' => $crudo[0]['rut'].'-'.strval($verificador),
 					'nombre_estudiante' => $crudo[0]['nombre'],
 					'carrera' => $crudo[0]['nombre programa'],
 					'mis_asignaturas' => $asig
