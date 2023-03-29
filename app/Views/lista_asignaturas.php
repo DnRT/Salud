@@ -61,3 +61,14 @@
         </a>
     </div>
 </div>
+<div>
+    <?php
+        foreach($crudo as $data){
+            foreach($data as $f){
+                foreach($f as $a){
+                    echo '<script> console.log("'.$a.'");</script>';
+                }
+            }
+        }
+    ?>
+</div>

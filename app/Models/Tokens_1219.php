@@ -17,8 +17,11 @@ class Tokens_1219 extends Model
 	{
 		$db = db_connect();
 		$result = $db->table('encuesta_actual')->where('rut',$rut)->get()->getResultArray();
+		$especialidad = str_replace('Especialidad en ','',$result[0]['nombre_especialidad']);
+		$especialidad = strtolower($especialidad);
+		$mencion = $db->table($especialidad)->get()->getResultArray();
 		if (count($result)>0) {
-			$asignaturas = $result;
+			$asignaturas = array($result,$mencion);
 			return $asignaturas;
 		} else {
 			return false;
