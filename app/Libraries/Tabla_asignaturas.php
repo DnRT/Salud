@@ -17,7 +17,7 @@
 			$token = $this->arr_asignaturas[0][0]['rut'].$this->arr_asignaturas[0][0]['codigo_programa'];
 			$return_tabla_asignatura = '<table class="table table-bordered"><thead><tr><th>Nombre</th><th>Ingresar</th></tr></thead><tbody>';
 			foreach ($this->arr_asignaturas[1] as $asig) {
-				$return_tabla_asignatura .= '<tr><td style="white-space:normal;">' .$asig['codigo_asig'] .' </td>';
+				$return_tabla_asignatura .= '<tr><td style="white-space:normal;">' .$asig['nombre'] .' </td>';
 				$return_tabla_asignatura .=
 		          '<td>
 		                <a target="_blank" href="https://encuestasdai.uv.cl/index.php/22?token=' .$token.$asig['codigo_asig'] .'&newtest=Y&lang=es" 
