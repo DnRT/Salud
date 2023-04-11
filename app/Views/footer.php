@@ -13,7 +13,6 @@
             </div>
 
     </div>
-    <!--Desde aqui
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="footer">
           <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
             <div class="fuente">
@@ -32,7 +31,6 @@
         <div class="col-lg-4 col-md-4 hidden-xs hidden-sm fuente">
         </div>
       </div>
-   Hasta aqui-->
 
 </div>
 
@@ -46,7 +44,6 @@
                 <p style="color: white; text-align: left;">Blanco 951 - Piso 2 - Valparaíso, Chile <br> 📞<a style="color: white;" href="tel:+56 32 260 3102">32 260 3102</a> - <a style="color: white;" href="mailto:encuestas.postgrados@uv.cl">✉ encuestas.postgrados@uv.cl</a></p>
             </div>
         </div>
-        <!--
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="footerxs">
           <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 boxFooter">
             <div class="fuente">
@@ -65,7 +62,6 @@
         <div class="col-lg-4 col-md-4 hidden-xs hidden-sm fuente">
         </div>
       </div>
-      Hasta aqui-->
     </div>
 </di  v>
 </body>
@@ -79,7 +75,6 @@
   gtag('config', 'UA-104079464-7');
 </script>
    <script language=Javascript>
-      <!--
       function isNumberKey(evt)
       {
          var charCode = (evt.which) ? evt.which : event.keyCode
@@ -88,7 +83,6 @@
 
          return true;
       }
-      //-->
    </script >
 
 </html>
