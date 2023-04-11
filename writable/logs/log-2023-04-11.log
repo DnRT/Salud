@@ -1,0 +1,109 @@
+ERROR - 2023-04-11 19:08:15 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in D:\Salud\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\Salud\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'encudocpostgrad...', Object(SensitiveParameterValue), 'encuestadocpost...', 3306, '', 0)
+#1 D:\Salud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Salud\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Salud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Salud\app\Models\Tokens_1219.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Salud\app\Controllers\Encuesta.php(24): App\Models\Tokens_1219->getAsigUser('17752896')
+#6 D:\Salud\system\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+#7 D:\Salud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+#8 D:\Salud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Salud\public\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 D:\Salud\system\Commands\Server\rewrite.php(47): require_once('D:\\Salud\\public...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in D:\Salud\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Salud\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Salud\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Salud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Salud\app\Models\Tokens_1219.php(19): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Salud\app\Controllers\Encuesta.php(24): App\Models\Tokens_1219->getAsigUser('17752896')
+#5 D:\Salud\system\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+#6 D:\Salud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+#7 D:\Salud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Salud\public\index.php(68): CodeIgniter\CodeIgniter->run()
+#9 D:\Salud\system\Commands\Server\rewrite.php(47): require_once('D:\\Salud\\public...')
+#10 {main}
+CRITICAL - 2023-04-11 19:08:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `encuesta_actual`
+WHERE `rut` = :rut:', [...], false)
+ 3 APPPATH\Models\Tokens_1219.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Encuesta.php(24): App\Models\Tokens_1219->getAsigUser('17752896')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Salud\\public\\index.php')
+CRITICAL - 2023-04-11 19:08:51 --> Undefined array key 0
+in APPPATH\Models\Tokens_1219.php on line 20.
+ 1 APPPATH\Models\Tokens_1219.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\Salud\\app\\Models\\Tokens_1219.php', 20)
+ 2 APPPATH\Controllers\Encuesta.php(24): App\Models\Tokens_1219->getAsigUser('17752896')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Salud\\public\\index.php')
+CRITICAL - 2023-04-11 19:21:33 --> Undefined array key "nombre_especialidad"
+in APPPATH\Models\Tokens_1219.php on line 20.
+ 1 APPPATH\Models\Tokens_1219.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_especialidad"', 'D:\\Salud\\app\\Models\\Tokens_1219.php', 20)
+ 2 APPPATH\Controllers\Encuesta.php(24): App\Models\Tokens_1219->getAsigUser('17752896')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Salud\\public\\index.php')
+CRITICAL - 2023-04-11 19:22:10 --> Undefined array key 0
+in APPPATH\Models\Tokens_1219.php on line 20.
+ 1 APPPATH\Models\Tokens_1219.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\Salud\\app\\Models\\Tokens_1219.php', 20)
+ 2 APPPATH\Controllers\Encuesta.php(24): App\Models\Tokens_1219->getAsigUser('17752896')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Salud\\public\\index.php')
+ERROR - 2023-04-11 19:24:03 --> mysqli_sql_exception: Table 'encuestadocpostgrado_joomla3.anestesiologia y' doesn't exist in D:\Salud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Salud\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Salud\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Salud\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Salud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Salud\app\Models\Tokens_1219.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Salud\app\Controllers\Encuesta.php(24): App\Models\Tokens_1219->getAsigUser('19998947')
+#6 D:\Salud\system\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+#7 D:\Salud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+#8 D:\Salud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Salud\public\index.php(68): CodeIgniter\CodeIgniter->run()
+#10 D:\Salud\system\Commands\Server\rewrite.php(47): require_once('D:\\Salud\\public...')
+#11 {main}
+CRITICAL - 2023-04-11 19:24:03 --> Table 'encuestadocpostgrado_joomla3.anestesiologia y' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `anestesiologia y` `reanimacion`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `anestesiologia y` `reanimacion`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `anestesiologia y` `reanimacion`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `anestesiologia y` `reanimacion`', [], false)
+ 5 APPPATH\Models\Tokens_1219.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Encuesta.php(24): App\Models\Tokens_1219->getAsigUser('19998947')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Salud\\public\\index.php')
+CRITICAL - 2023-04-11 19:32:45 --> str_contains() expects exactly 2 arguments, 1 given
+in APPPATH\Models\Tokens_1219.php on line 22.
+ 1 APPPATH\Models\Tokens_1219.php(22): str_contains(' y ')
+ 2 APPPATH\Controllers\Encuesta.php(24): App\Models\Tokens_1219->getAsigUser('19998947')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Salud\\public\\index.php')

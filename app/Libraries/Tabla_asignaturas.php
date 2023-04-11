@@ -20,7 +20,7 @@
 				$return_tabla_asignatura .= '<tr><td style="white-space:normal;">' .$asig['nombre'] .' </td>';
 				$return_tabla_asignatura .=
 		          '<td>
-		                <a target="_blank" href="https://encuestasdai.uv.cl/index.php/22?token=' .$token.$asig['codigo_asig'] .'&newtest=Y&lang=es" 
+		                <a target="_blank" href="https://encuestasdai.uv.cl/index.php/22?token='.$token.$asig['codigo_asig'].'&newtest=Y&lang=es" 
 		                    class=" btn btn-success btn-sm" role="button">
 		                    <span class="glyphicon glyphicon-log-in"></span>
 		                </a>
@@ -28,7 +28,8 @@
 		            </tr>';
 
 		        }
-			$return_tabla_asignatura .= '<tbody></table><p class="text-info">*El color celeste identifica aquellas asignaturas que tienen m&aacutes de un docente</p>';
+				$return_tabla_asignatura .= '<tbody></table><p class="text-success">*El color verde identifica aquellas rotaciones que ya fueron evaluadas por usted</p>';
+				$return_tabla_asignatura .= '<p class="text-danger">*El color rojo identifica aquellas rotaciones que usted tiene pendiente para evaluar</p>';
 
 			return $return_tabla_asignatura;
 		}

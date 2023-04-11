@@ -58,7 +58,7 @@
                 </div>
                 <div>
                     <h5 class="text-justify">
-                        <b>Para conocer tu listado de asignaturas, es necesario que accedas a esta plataforma.</b></h5>
+                        <b>Para conocer tu listado de rotaciones, es necesario que accedas a esta plataforma:</b></h5>
                 </div>
 
                 <div class="input-group">
