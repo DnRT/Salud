@@ -60,7 +60,6 @@ CREATE TABLE `token_usados`
 	`token` VARCHAR (512) PRIMARY KEY,
 	`tiempo` DATE
 );
-*/
 INSERT INTO `pediatria` (`codigo_asig`, `nombre`) VALUES
 	('EMPD101','Bioetica Clinica'),
 	('EMPD102','Nutricion Clinica'),
@@ -358,3 +357,4 @@ INSERT INTO `encuesta_actual` (`nombre`, `apellido`, `email`, `token`, `nombre_e
 	('ELIZABETH ALEJANDRA','LANDEROS','ELIZABETH ALEJANDRA LANDEROS @postgrado.uv.cl','1610687320030164EMCD205','Especialidad en Cardiologia','','16106873','20030164','EMCD205'),
 	('Carolina','ORTIZ','Carolina ORTIZ @postgrado.uv.cl','1610949520030164EMCD206','Especialidad en Cardiologia','','16109495','20030164','EMCD206'),
 	('NATALIA ALEJANDRA','GUERRA','NATALIA ALEJANDRA GUERRA @postgrado.uv.cl','1611720820030164EMCD207','Especialidad en Cardiologia','','16117208','20030164','EMCD207');
+*/

@@ -18,7 +18,8 @@
 			$return_tabla_asignatura = '<table class="table table-bordered"><thead><tr><th>Nombre</th><th>Ingresar</th></tr></thead><tbody>';
 			foreach ($this->arr_asignaturas[1] as $asig) {
 				$return_tabla_asignatura .= '<tr><td style="white-space:normal;">' .$asig['nombre'] .' </td>';
-				$return_tabla_asignatura .=
+				if(strcmp($this->arr_asignaturas[0][0]['token'],$token.$asig['codigo_asig'])==0){
+					$return_tabla_asignatura .=
 		          '<td>
 		                <a target="_blank" href="https://encuestasdai.uv.cl/index.php/22?token='.$token.$asig['codigo_asig'].'&newtest=Y&lang=es" 
 		                    class=" btn btn-success btn-sm" role="button">
@@ -26,7 +27,17 @@
 		                </a>
 		            </td>
 		            </tr>';
-
+				}
+				else{
+					$return_tabla_asignatura .=
+		          '<td>
+		                <a target="_blank" href="https://encuestasdai.uv.cl/index.php/22?token='.$token.$asig['codigo_asig'].'&newtest=Y&lang=es" 
+		                    class=" btn btn-danger btn-sm" role="button">
+		                    <span class="glyphicon glyphicon-log-in"></span>
+		                </a>
+		            </td>
+		            </tr>';
+				}
 		        }
 				$return_tabla_asignatura .= '<tbody></table><p class="text-success">*El color verde identifica aquellas rotaciones que ya fueron evaluadas por usted</p>';
 				$return_tabla_asignatura .= '<p class="text-danger">*El color rojo identifica aquellas rotaciones que usted tiene pendiente para evaluar</p>';
