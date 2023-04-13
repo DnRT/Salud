@@ -16,9 +16,9 @@
 		{
 			$token = $this->arr_asignaturas[0][0]['rut'].$this->arr_asignaturas[0][0]['codigo_programa'];
 			$return_tabla_asignatura = '<table class="table table-bordered"><thead><tr><th>Nombre</th><th>Ingresar</th></tr></thead><tbody>';
-			foreach ($this->arr_asignaturas[1] as $asig) {
+			foreach ($this->arr_asignaturas[2] as $asig) {
 				$return_tabla_asignatura .= '<tr><td style="white-space:normal;">' .$asig['nombre'] .' </td>';
-				if(strcmp($this->arr_asignaturas[0][0]['token'],$token.$asig['codigo_asig'])==0){
+				if(in_array($token.$asig['codigo_asig'],$this->arr_asignaturas[3])){
 					$return_tabla_asignatura .=
 		          '<td>
 		                <a target="_blank" href="https://encuestasdai.uv.cl/index.php/22?token='.$token.$asig['codigo_asig'].'&newtest=Y&lang=es" 

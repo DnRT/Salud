@@ -2,7 +2,7 @@
 <div class="container">
     <div class="col-sm-6 col-md-12" style="margin-top: 10px;">
         <div class="thumbnail">
-            <img src="<?php echo base_url('assets/images/banner_encdocente_2019_azul.jpg'); ?>" class="img-fluid" alt="Responsive image">
+            <img src="<?php echo base_url('assets/images/banner_encdocentesalud_2023_azul.png'); ?>" class="img-fluid" alt="Responsive image">
         </div>
     </div>
 </div>

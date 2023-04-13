@@ -16,15 +16,15 @@ class Tokens_1219 extends Model
 	public function getAsigUser($rut)
 	{
 		$db = db_connect();
-		$result = $db->table('encuesta_actual')->where('rut',$rut)->get()->getResultArray();
-		$especialidad = str_replace('Especialidad en ','',$result[0]['nombre_especialidad']);
-		$especialidad = strtolower($especialidad);
-		if(str_contains($especialidad,' y ')){
-			$especialidad  = str_replace(' y ','_',$especialidad);
+		$resultEstudiantes = $db->table('estudiante')->where('rut',$rut)->get()->getResultArray();
+		$resultCursos = $db->table('estudiante_carrera')->where('rut',$rut)->get()->getResultArray();
+		$resultToken = $db->table('encuesta')->where('rut',$rut)->get()->getResultArray();
+		for($a = 0; $a < count($resultToken); $a++){
+			$resultToken[$a]=$resultToken[$a]['token'];
 		}
-		$mencion = $db->table($especialidad)->get()->getResultArray();
-		if (count($result)>0) {
-			$asignaturas = array($result,$mencion);
+		if (count($resultEstudiantes)>0&&count($resultCursos)>0) {
+			$resultCarrera = $db->table('carrera')->where('codigo_programa',$resultEstudiantes[0]['codigo_programa'])->get()->getResultArray();
+			$asignaturas = array($resultEstudiantes,$resultCursos,$resultCarrera,$resultToken);
 			return $asignaturas;
 		} else {
 			return false;

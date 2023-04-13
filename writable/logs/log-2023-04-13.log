@@ -1,0 +1,83 @@
+CRITICAL - 2023-04-13 18:57:04 --> Undefined array key "nombre"
+in APPPATH\Libraries\Tabla_asignaturas.php on line 20.
+ 1 APPPATH\Libraries\Tabla_asignaturas.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\Salud\\app\\Libraries\\Tabla_asignaturas.php', 20)
+ 2 APPPATH\Controllers\Encuesta.php(28): App\Libraries\Tabla_asignaturas->construirTablaAsignaturas()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Salud\\public\\index.php')
+CRITICAL - 2023-04-13 18:59:49 --> Undefined variable $crudo
+in APPPATH\Views\test.php on line 3.
+ 1 APPPATH\Views\test.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $crudo', 'C:\\xampp\\htdocs\\Salud\\app\\Views\\test.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Salud\\app\\Views\\test.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('test.php', [], true)
+ 5 APPPATH\Controllers\Encuesta.php(27): view('test.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Salud\\public\\index.php')
+CRITICAL - 2023-04-13 19:04:34 --> Undefined array key "nombre"
+in APPPATH\Libraries\Tabla_asignaturas.php on line 20.
+ 1 APPPATH\Libraries\Tabla_asignaturas.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\Salud\\app\\Libraries\\Tabla_asignaturas.php', 20)
+ 2 APPPATH\Controllers\Encuesta.php(28): App\Libraries\Tabla_asignaturas->construirTablaAsignaturas()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Salud\\public\\index.php')
+CRITICAL - 2023-04-13 19:31:31 --> Call to undefined function App\Models\getResultArray()
+in APPPATH\Models\Tokens_1219.php on line 21.
+ 1 APPPATH\Controllers\Encuesta.php(24): App\Models\Tokens_1219->getAsigUser('7970607')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Salud\\public\\index.php')
+CRITICAL - 2023-04-13 19:35:01 --> Undefined array key "token"
+in APPPATH\Libraries\Tabla_asignaturas.php on line 21.
+ 1 APPPATH\Libraries\Tabla_asignaturas.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\xampp\\htdocs\\Salud\\app\\Libraries\\Tabla_asignaturas.php', 21)
+ 2 APPPATH\Controllers\Encuesta.php(28): App\Libraries\Tabla_asignaturas->construirTablaAsignaturas()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Salud\\public\\index.php')
+CRITICAL - 2023-04-13 19:38:30 --> in_array(): Argument #2 ($haystack) must be of type array, string given
+in APPPATH\Libraries\Tabla_asignaturas.php on line 21.
+ 1 APPPATH\Libraries\Tabla_asignaturas.php(21): in_array('797060720030182EMPD101', '797060720030182EMPD101')
+ 2 APPPATH\Controllers\Encuesta.php(28): App\Libraries\Tabla_asignaturas->construirTablaAsignaturas()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Salud\\public\\index.php')
+CRITICAL - 2023-04-13 19:42:24 --> Undefined array key "token"
+in APPPATH\Models\Tokens_1219.php on line 24.
+ 1 APPPATH\Models\Tokens_1219.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\xampp\\htdocs\\Salud\\app\\Models\\Tokens_1219.php', 24)
+ 2 APPPATH\Controllers\Encuesta.php(24): App\Models\Tokens_1219->getAsigUser('7970607')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Salud\\public\\index.php')
+CRITICAL - 2023-04-13 19:42:37 --> Undefined array key "token"
+in APPPATH\Models\Tokens_1219.php on line 24.
+ 1 APPPATH\Models\Tokens_1219.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "token"', 'C:\\xampp\\htdocs\\Salud\\app\\Models\\Tokens_1219.php', 24)
+ 2 APPPATH\Controllers\Encuesta.php(24): App\Models\Tokens_1219->getAsigUser('7970607')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Salud\\public\\index.php')
+CRITICAL - 2023-04-13 19:43:17 --> Undefined array key 0
+in APPPATH\Libraries\Tabla_asignaturas.php on line 21.
+ 1 APPPATH\Libraries\Tabla_asignaturas.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\Salud\\app\\Libraries\\Tabla_asignaturas.php', 21)
+ 2 APPPATH\Controllers\Encuesta.php(28): App\Libraries\Tabla_asignaturas->construirTablaAsignaturas()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->responder()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Salud\\public\\index.php')
