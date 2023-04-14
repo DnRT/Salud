@@ -1,0 +1,9 @@
+CRITICAL - 2023-04-14 19:19:47 --> Undefined array key 2
+in APPPATH\Models\Tokens_1219.php on line 23.
+ 1 APPPATH\Models\Tokens_1219.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\Salud\\app\\Models\\Tokens_1219.php', 23)
+ 2 APPPATH\Controllers\Encuesta.php(47): App\Models\Tokens_1219->load_carrera_csv()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->load_data()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Salud\\public\\index.php')

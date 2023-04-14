@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class Tokens_1219 extends Model
 {
 	public function load_carrera_csv(){
-		$file = fopen('C:/Users/DnRT/Desktop/php/Planilla Carga Carreras.csv','r');
+		$file = fopen('D:/php/Planilla Carga Carreras.csv','r');
 		$datos = array();
 		while(!feof($file)){
 			if(($aux = fgetcsv($file,0,';'))!==false){
@@ -28,7 +28,7 @@ class Tokens_1219 extends Model
 		$db->close();
 	}
 	public function load_estudiante_csv(){
-		$file = fopen('C:/Users/DnRT/Desktop/php/Planilla Carga Estudiantes.csv','r');
+		$file = fopen('D:/php/Planilla Carga Estudiantes.csv','r');
 		$datos = array();
 		while(!feof($file)){
 			if(($aux = fgetcsv($file,0,';'))!==false){

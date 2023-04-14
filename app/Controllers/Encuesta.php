@@ -31,8 +31,7 @@
 					'rut' => $crudo[0][0]['rut'].'-'.strval($verificador),
 					'nombre_estudiante' => $crudo[0][0]['nombre'].' '.$crudo[0][0]['apellido'],
 					'carrera' => $crudo[0][0]['nombre_especialidad'],
-					'mis_asignaturas' => $asig,
-					'crudo' => $crudo
+					'mis_asignaturas' => $asig
 				];
 				return view('header.php')
 				.view('lista_asignaturas.php',$data)
