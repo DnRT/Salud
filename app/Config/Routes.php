@@ -31,6 +31,7 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Encuesta::index');
 $routes->post('/encuesta','Encuesta::responder');
+$routes->get('/carga','Encuesta::load_data');
 
 /*
  * --------------------------------------------------------------------
