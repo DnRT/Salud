@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class Tokens_1219 extends Model
 {
 	public function load_carrera_csv(){
-		$file = fopen('D:/php/Planilla Carga Carreras.csv','r');
+		$file = fopen('C:/Users/DnRT/Desktop/php/carga php piloto V5_anestesiología - carga programas.csv','r');
 		$datos = array();
 		while(!feof($file)){
 			if(($aux = fgetcsv($file,0,';'))!==false){
@@ -16,6 +16,7 @@ class Tokens_1219 extends Model
 		}
 		$db = db_connect();
 		foreach($datos as $row){
+			$row[0] = preg_replace('([^A-Za-z0-9])', '', $row[0]);
 			if(!$this->getAsig($row[0])){
 				$insertar = [
 					'codigo_asig' => $row[0],
@@ -28,7 +29,7 @@ class Tokens_1219 extends Model
 		$db->close();
 	}
 	public function load_estudiante_csv(){
-		$file = fopen('D:/php/Planilla Carga Estudiantes.csv','r');
+		$file = fopen('C:/Users/DnRT/Desktop/php/carga php piloto V5_anestesiología - estudiantes.csv','r');
 		$datos = array();
 		while(!feof($file)){
 			if(($aux = fgetcsv($file,0,';'))!==false){
@@ -37,21 +38,21 @@ class Tokens_1219 extends Model
 		}
 		$db = db_connect();
 		foreach($datos as $row){
-			if($this->getAsigUser($row[5])==false){
+			$row[0] = preg_replace('([^A-Za-z0-9])', '', $row[0]);
+			if($this->getAsigUser($row[4])==false){
 				$insertarEstudiante = [
 					'nombre' => $row[0],
 					'apellido' => $row[1],
 					'email' => $row[2],
 					'nombre_especialidad' => $row[3],
-					'nombre_campo_clinico' => $row[4],
-					'rut' => $row[5],
-					'codigo_programa' => $row[6]
+					'rut' => $row[4],
+					'codigo_programa' => $row[5]
 				];
 				$db->table('estudiante')->insert($insertarEstudiante);
-				foreach(explode(',',$row[7]) as $asig){
+				foreach(explode(',',$row[6]) as $asig){
 					$insertarEstudianteCarrera = [
 						'codigo_asig' => $asig,
-						'rut' => $row[5]
+						'rut' => $row[4]
 					];
 					$db->table('estudiante_carrera')->insert($insertarEstudianteCarrera);
 				}

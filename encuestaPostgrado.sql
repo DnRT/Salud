@@ -11,7 +11,6 @@ CREATE TABLE estudiante
 	apellido	VARCHAR(512),
 	email	VARCHAR(512),
 	nombre_especialidad	VARCHAR(512),
-	nombre_campo_clinico	VARCHAR(512),
 	rut	INT PRIMARY KEY,
 	codigo_programa INT
 );
