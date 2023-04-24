@@ -1,0 +1,37 @@
+ERROR - 2023-04-24 18:48:37 --> mysqli_sql_exception: Table 'encuestadocpostgrado_joomla3.carrera' doesn't exist in D:\Salud\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Salud\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Salud\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Salud\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Salud\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Salud\app\Models\Tokens_1219.php(86): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Salud\app\Models\Tokens_1219.php(20): App\Models\Tokens_1219->getAsig('EMAR101')
+#6 D:\Salud\app\Controllers\Encuesta.php(47): App\Models\Tokens_1219->load_carrera_csv()
+#7 D:\Salud\system\CodeIgniter.php(934): App\Controllers\Encuesta->load_data()
+#8 D:\Salud\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+#9 D:\Salud\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Salud\public\index.php(68): CodeIgniter\CodeIgniter->run()
+#11 D:\Salud\system\Commands\Server\rewrite.php(47): require_once('D:\\Salud\\public...')
+#12 {main}
+CRITICAL - 2023-04-24 18:48:37 --> Table 'encuestadocpostgrado_joomla3.carrera' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `carrera`
+WHERE `codigo_asig` = \'EMAR101\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `carrera`
+WHERE `codigo_asig` = \'EMAR101\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `carrera`
+WHERE `codigo_asig` = \'EMAR101\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `carrera`
+WHERE `codigo_asig` = :codigo_asig:', [...], false)
+ 5 APPPATH\Models\Tokens_1219.php(86): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\Tokens_1219.php(20): App\Models\Tokens_1219->getAsig('EMAR101')
+ 7 APPPATH\Controllers\Encuesta.php(47): App\Models\Tokens_1219->load_carrera_csv()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Encuesta->load_data()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Encuesta))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(68): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Salud\\public\\index.php')

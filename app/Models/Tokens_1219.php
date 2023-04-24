@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class Tokens_1219 extends Model
 {
 	public function load_carrera_csv(){
-		$file = fopen('C:/Users/DnRT/Desktop/php/carga php piloto V5_anestesiología - carga programas.csv','r');
+		$file = fopen('D:/php/carga php piloto V5_anestesiología - carga programas.csv','r');
 		$datos = array();
 		while(!feof($file)){
 			if(($aux = fgetcsv($file,0,';'))!==false){
@@ -29,7 +29,7 @@ class Tokens_1219 extends Model
 		$db->close();
 	}
 	public function load_estudiante_csv(){
-		$file = fopen('C:/Users/DnRT/Desktop/php/carga php piloto V5_anestesiología - estudiantes.csv','r');
+		$file = fopen('D:/php/carga php piloto V5_anestesiología - estudiantes.csv','r');
 		$datos = array();
 		while(!feof($file)){
 			if(($aux = fgetcsv($file,0,';'))!==false){
@@ -38,7 +38,7 @@ class Tokens_1219 extends Model
 		}
 		$db = db_connect();
 		foreach($datos as $row){
-			$row[0] = preg_replace('([^A-Za-z0-9])', '', $row[0]);
+			$row[0] = preg_replace('/[^\w\s]|_/', '', $row[0]);
 			if($this->getAsigUser($row[4])==false){
 				$insertarEstudiante = [
 					'nombre' => $row[0],

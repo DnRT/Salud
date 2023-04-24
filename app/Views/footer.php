@@ -18,13 +18,13 @@
         <div class="fuente">
           <div class="hidden-xs hidden-sm">
             Sistema desarrollado por la
-            <a class=" text-info fuente linkHover" href="https://analisis.uv.cl/" target="_blank">Direcci&oacuten de An&aacutelisis Institucional</a>,
+            <a class=" text-info fuente linkHover" href="https://postgrados.uv.cl/" target="_blank">Direcci&oacuten general de postgrado y post&iacutelulo</a>,
             <a class=" text-info fuente linkHover" href="https://uv.cl" target="_blank">Universidad de Valpara&iacuteso - Chile -
-            2019</a>
+            2023</a>
           </div>
           <div class="hidden-lg hidden-md text-center">
             <a class=" text-info fuente linkHover" href="https://uv.cl" target="_blank">Universidad de Valpara&iacuteso - Chile -
-            2019</a>
+            2023</a>
           </div>
         </div>
       </div>
