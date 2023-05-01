@@ -15,7 +15,7 @@
 <body>
 	<div id="header-navbar">
 		<div class="container">
-			<img class="hidden-xs" src="/assets/images/acreditada_post_W580px.png" style="height: 85px"/>
+			<img class="hidden-xs" src="/assets/images/post_UV2.png" style="height: 85px"/>
 			<img class="hidden-xs pull-right" src="/assets/images/logo.png" style="height: 100px">
 			<div class="text-center visible-xs">
 				<img src="/assets/images/acreditada_post_W580px.png" height="75" alt="Universidad de Valparaíso"/>
